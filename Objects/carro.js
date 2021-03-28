@@ -8,7 +8,8 @@ carro.position.z = -5
 var i=0;
 var intervalo = setInterval(() => {
     i++
-    carro.position.x -= 20 * Math.sin(i/625)/100;
+    carro.position.x -= 20 * Math.sin(i/630)/100;
     carro.position.z += 20 * Math.cos(i/630)/100;
 }, 10);
+
 cena.add(carro);

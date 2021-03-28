@@ -18,5 +18,4 @@ for (let i = 0; i < 6; i++)
 
 let skyboxGeo = new THREE.BoxGeometry(1000, 1000, 1000);
 let skybox = new THREE.Mesh(skyboxGeo, materialArray);
-//skybox.position.y = 500
 cena.add(skybox);
