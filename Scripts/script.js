@@ -11,9 +11,9 @@ render.setSize(window.innerWidth, window.innerHeight);
 var canvas = render.domElement;
 document.body.appendChild(canvas);
 
-camera.position.z = 60;
-camera.position.y = 2;
-camera.position.x = -55;
+camera.position.x = 142.1923370076532;
+camera.position.y = 6.030900709886454;
+camera.position.z = -4.256341324839731;
 
 var controles = new THREE.OrbitControls(camera, render.domElement)
 
