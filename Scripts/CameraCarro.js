@@ -2,9 +2,9 @@ var cont=0;
 moveCamera = function(){
     camera.rotation.x = 0;
     camera.rotation.z = 0;
-    camera.position.x = corpoCarro.position.x + 1;
-    camera.position.z = corpoCarro.position.z - 1;
-    camera.position.y = corpoCarro.position.y + 5;
+    camera.position.x = cameraPosition.position.x + 1;
+    camera.position.z = cameraPosition.position.z - 1;
+    camera.position.y = cameraPosition.position.y + 5;
 }
 
 document.onkeydown = function(event){
